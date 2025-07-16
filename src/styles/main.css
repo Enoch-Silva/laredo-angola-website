@@ -25,8 +25,17 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.logo img {
-  height: 90px;
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.image001 {
+  height: 30px;
+}
+
+.image00 {
+  height: 20px;
 }
 
 .main-nav ul {
@@ -101,10 +110,10 @@ header {
 .search-box {
   display: flex;
   align-items: center;
-  background: #f5f5f5;
+  background: none;
   border-radius: 25px;
   padding: 5px 15px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #7ac943;
   transition: all 0.3s ease;
 }
 
@@ -732,9 +741,12 @@ main li {
   color: #333;
 }
 
-.footer-logo {
+.footer-logo1 {
   height: 80px;
-  margin-bottom: 20px;
+}
+
+.footer-logo2 {
+  height: 40px;
 }
 
 .company-description {
@@ -747,6 +759,7 @@ main li {
 .social-icons {
   display: flex;
   gap: 15px;
+  margin: 20px 0;
 }
 
 .social-icons a {
